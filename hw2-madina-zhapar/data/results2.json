@@ -1,0 +1,92 @@
+{
+  "uncompressed": {
+    "tokens": [
+      9,
+      22,
+      33,
+      44,
+      57,
+      72,
+      89,
+      107,
+      123,
+      124,
+      135,
+      141,
+      150,
+      158,
+      170,
+      181,
+      189
+    ],
+    "peak": 189,
+    "probes": {
+      "Q-1": {
+        "reply": "Сәлеметсіз бе, Daniyar Qoshan! Let’s summarize and clarify your situation:\n\n1. **What’s still missing**:  \n   - Your ID card scan (you mentioned the scanner is broken).  \n   - You plan to bring it to the office on Thursday.  \n\n2. **Study grant amount**:  \n   Based on your income band (2), the study grant amount would be **[insert specific amount here, if known]**.  \n\n3. **Your applicant details**:  \n   - **Name**: Daniyar Qoshan  \n   - **Applicant number**: A-202  \n\n4. **Other clarifications**:  \n   - **Employer letter**: A scanned letter from your employer is usually acceptable, but confirm with the office if they require the original.  \n   - **Decision timeline**: If you bring the ID card on Thursday, the decision may not be made the same day. Processing times vary.  \n   - **Sister’s application**: Aruzhan’s previous application is on file, but it does not directly impact your application.  \n\nTo confirm your eligibility and grant amount, ensure all required documents (including the ID card) are submitted. Let the office know about your scheduling constraints (only available on Thursdays).  \n\nIf there’s anything else you need, feel free to ask!",
+        "retrieved": true
+      },
+      "Q-2": {
+        "reply": "Сәлеметсіз бе, Daniyar! Here’s a summary of your query and answers:  \n\n1. **Study Grant Eligibility**:  \n   - Based on your **Income Band 2**, you likely qualify for the study grant. The exact amount depends on the grant policy, but Income Band 2 typically grants **KZT [insert amount]**.  \n\n2. **Missing Documents**:  \n   - **ID Card**: You haven’t uploaded it due to scanner issues.  \n   - **Employer Letter**: A **scanned copy** is acceptable, but the original might be required for verification.  \n\n3. **Next Steps**:  \n   - You can bring your **ID card** to the office on Thursday. However, decisions are usually not made the same day; processing may take a few days.  \n\n4. **Your File Status**:  \n   - Your applicant number is **A-202**.  \n   - Your sister Aruzhan’s application is on file but doesn’t affect your application.  \n\n5. **What’s Missing**:  \n   - Your **ID card** is still missing from your file.  \n\nLet us know if you have further questions!",
+        "retrieved": false
+      },
+      "Q-3": {
+        "reply": "Сәлеметсіз бе, Daniyar! Let’s summarize and address your queries:\n\n1. **Applicant Details**:  \n   - You are Applicant **A-202**.\n\n2. **Income Band**:  \n   - Your income band is **2**. The exact amount you qualify for depends on the grant policy for your income band. This will be confirmed upon final approval.\n\n3. **Missing Document**:  \n   - Your **ID card** is still missing. You mentioned you’ll bring it on Thursday.\n\n4. **Employer Letter**:  \n   - A **scanned letter from your employer** is acceptable; the original is not required.\n\n5. **Decision Timeline**:  \n   - If you bring your ID card on Thursday, the decision **may** be made the same day, but it depends on the processing workflow.\n\n6. **Family Reference**:  \n   - Your sister, **Aruzhan**, is on file from last year. Her details may be referenced if needed.\n\n7. **Total Grant Amount**:  \n   - The amount for income band 2 will be confirmed after your file is complete and processed.\n\n8. **Action Items**:  \n   - You need to bring your **ID card** on Thursday to complete your file.  \n   - Ensure all other documents (transcript, employer letter) are already submitted.\n\nLet me know if you have further questions! Good luck with your application!",
+        "retrieved": false
+      },
+      "Q-4": {
+        "reply": "**Compressed Response:**\n\nSәлем, Daniyar! Here’s a summary:  \n- **Applicant:** Daniyar Qoshan, A-202.  \n- **Missing Document:** ID card (can bring on Thursday).  \n- **Income Band:** 2 (amount pending confirmation).  \n- **Office Visit:** Only available on Thursdays.  \n- **Employer Letter:** Scanned copy likely acceptable, but verify.  \n- **File Status:** Sister Aruzhan is on file; check for remaining requirements.  \nLet me know if you need further details!",
+        "retrieved": true
+      },
+      "Q-5": {
+        "reply": "Here’s a compressed summary of your queries:  \n1. **Missing Documents**: Your ID card is still missing.  \n2. **Amount for Income Band 2**: The grant amount for income band 2 is yet to be confirmed.  \n3. **Applicant Details**: You are applicant A-202, Daniyar Qoshan.  \n4. **Office Visit**: You can only come to the office on Thursdays.  \n5. **Employer Letter**: You asked if a scanned letter from your employer counts or if the original is required.  \n6. **Decision Timeline**: You asked if bringing your ID card on Thursday would result in a same-day decision.  \n7. **Family Reference**: Your sister Aruzhan is on file from last year. Let me know if you need further clarification!",
+        "retrieved": true
+      }
+    },
+    "state": null
+  },
+  "compressed": {
+    "tokens": [
+      9,
+      22,
+      33,
+      44,
+      57,
+      72,
+      89,
+      107,
+      123,
+      123,
+      134,
+      140,
+      149,
+      157,
+      169,
+      180,
+      188
+    ],
+    "peak": 188,
+    "probes": {
+      "Q-1": {
+        "reply": "Сәлеметсіз бе, Daniyar Qoshan! Let’s address your questions step by step:\n\n1. **Study Grant Eligibility**:  \n   Based on your income band **2** and the information provided, you may qualify for the study grant. The exact amount depends on the program’s policies and your financial circumstances. Typically, income band 2 grants range between **X and Y** (specific amounts depend on your institution’s funding structure).\n\n2. **ID Card Issue**:  \n   Since your scanner broke, you can bring your **original ID card** to the office on Thursday. Scanned copies are usually accepted, but if the scanner is unavailable, the original is fine.\n\n3. **Employer Letter**:  \n   A **scanned letter from your employer** is generally acceptable if it is clear and official. However, you should confirm with the office if they require the **original**.\n\n4. **Decision Timeline**:  \n   If you bring your ID card on Thursday, the decision may **not** be made the same day. Processing times vary, but they will update your file and proceed with the evaluation.\n\n5. **Your Sister Aruzhan**:  \n   Since your sister Aruzhan is on file, this might streamline your application, especially if she was previously approved. Ensure her details are correctly linked to your application.\n\n6. **Missing Documents**:  \n   Currently, your **ID card** is missing from the file. Once you submit it, your application will be complete.\n\n7. **Your Applicant Number**:  \n   You are **Applicant A-202**. Be sure to reference this number in all communications.\n\n8. **Grant Amount**:  \n   For income band 2, the grant amount is typically **[insert specific amount here]**. Confirm this with the office during your visit.\n\nLet me know if you need further clarification! You’re almost there. 😊",
+        "retrieved": true
+      },
+      "Q-2": {
+        "reply": "Сәлеметсіз бе, Daniyar Qoshan! Thank you for reaching out. Based on the information you’ve provided, here’s a summary of your situation and answers to your questions:  \n\n1. **Study Grant Eligibility**:  \n   - Since your income band is 2, you likely qualify for a study grant. The exact amount depends on the specific grant program and its criteria. For example, if the grant for income band 2 is **X amount**, that would be the figure. You’ll need to confirm this with the office or check the program guidelines.  \n\n2. **Missing Documents**:  \n   - **ID Card**: This is still missing from your file. You mentioned you can bring it on Thursday, which is fine.  \n   - **Employer Letter**: A scanned letter from your employer is usually acceptable, but the office may require an original copy. Confirm this with them.  \n\n3. **Application Status**:  \n   - Your application is labeled as **A-202**.  \n   - Your sister’s previous application (Aruzhan) is on file, but this doesn’t directly impact your application.  \n\n4. **Decision Timeline**:  \n   - If you bring your ID card on Thursday, the decision will likely **not** be made the same day. Processing times vary, so ask the office for an estimated timeline.  \n\n5. **Next Steps**:  \n   - Bring your ID card to the office on Thursday.  \n   - Confirm whether the employer letter needs to be original or if the scanned version is sufficient.  \n   - Double-check if any other documents are missing by reviewing the requirements or asking the office directly.  \n\nKey Points:  \n- Missing Document: **ID Card**  \n- Grant Amount: Confirm based on income band 2.  \n- Application Number: **A-202**  \n- Decision Timeline: Not immediate; ask the office for details.  \n\nLet me know if you need further clarification! Good luck with your application!",
+        "retrieved": false
+      },
+      "Q-3": {
+        "reply": "Сәлеметсіз бе, Daniyar Qoshan! Let’s break this down step by step based on the information you’ve provided:\n\n### Your Current Status:\n- **Name**: Daniyar Qoshan  \n- **Applicant Number**: A-202  \n- **Income Band**: 2 (as per your family’s certificate)  \n\n### Missing Documents:\n- **ID Card**: You mentioned you couldn’t upload it because your scanner broke. You plan to bring it on Thursday.  \n- **Employer Letter**: A scanned letter from your employer is acceptable unless the office explicitly requires the original.  \n\n### Study Grant Amount:\nThe grant amount depends on your income band. Since you are in **Income Band 2**, the exact amount can be confirmed by the office. Typically, Income Band 2 qualifies for a moderate grant amount, but the specific figure will depend on the institution’s policies.  \n\n### Decision Timeline:\nIf you bring your ID card on Thursday, the decision **may not** be made the same day, as the office might need time to review your complete file.  \n\n### Additional Notes:\n- Your sister Aruzhan is already on file, which might streamline some of the verification processes.  \n- Once your ID card is submitted, your file should be complete, assuming all other required documents (transcript, family certificate, employer letter) are already uploaded.  \n\n### Summary:\n- **Missing Document**: ID card (to be submitted on Thursday).  \n- **Income Band**: 2 (grant amount to be confirmed by the office).  \n- **Applicant Number**: A-202.  \n\nPlease confirm with the office if the scanned employer letter is sufficient and when you can expect the decision after submitting your ID card. Let me know if you need further clarification!",
+        "retrieved": false
+      },
+      "Q-4": {
+        "reply": "Understood, let me organize your application details clearly:  \n\n- **Applicant Identification:** You are **Daniyar Qoshan**, **Applicant A-202**.  \n- **Income Band:** Your family is in **Band 2**. The corresponding grant amount (if approved) would be **[specific amount, if applicable]**.  \n- **Missing Documents:**  \n  - **ID Card** (could not upload due to scanner issue). **Scanned copy is acceptable temporarily**, but an original may be required later.  \n  - Potentially other items?  \n- **Availability:** You can visit the office **only on Thursdays** (lab schedule otherwise).  \n- **Special Note:** Your sister Aruzhan’s prior application is on file, which may help cross-reference family details.  \n\n**Next Steps:**  \n1. Bring your **original ID card** this Thursday. A scanned copy of your employer’s letter is likely sufficient for now.  \n2. Ask the office to confirm if any other documents are pending.  \n3. The decision timeline depends on their review process (may not be immediate on Thursday).  \n\nWould you like me to clarify any part further?  \n\n*Key details to remember:*  \n- **Grant amount for Band 2** (if known)  \n- **Exact list of missing documents**  \n- **Office hours/contact for Thursday**  \n\nLet me write concisely:  \n\n---  \n**Summary:**  \n- **ID card scanned copy acceptable** (original preferred later).  \n- **Visit Thursday with ID**; decision may take longer.  \n- **Band 2 grant amount**: [X] KZT (if approved).  \n- **Sister’s file noted**; may simplify verification.  \n---  \n\nWould this help?",
+        "retrieved": true
+      },
+      "Q-5": {
+        "reply": "Сәлем, Daniyar! Let me summarize and address your questions one by one:\n\n1. **Study Grant Qualification and Amount**:  \n   Based on your income band (Band 2), you may qualify for a study grant. However, the exact amount depends on the university or organization's criteria. You’ll need to confirm this with the office.\n\n2. **Missing Document**:  \n   You still need to submit a scanned copy of your ID card.  \n\n3. **Submission Timing**:  \n   You mentioned you can only come to the office on Thursdays. If you bring your ID card on Thursday, the decision may not be made the same day, as processing usually takes time.  \n\n4. **Employer Letter**:  \n   A scanned letter from your employer is typically acceptable, but it’s best to confirm with the office if they require the original.  \n\n5. **Applicant Details**:  \n   You are Applicant A-202, Daniyar Qoshan.  \n\n6. **Income Band**:  \n   Your income band is Band 2, but the corresponding grant amount needs to be confirmed by the office.  \n\n7. **Office Visit Day**:  \n   You can visit the office on Thursdays.  \n\n8. **Status Check**:  \n   You asked whether a scanned letter from your employer counts or if the original is required.  \n\n9. **Status of Your File**:  \n   Currently, your ID card is missing from your file.  \n\nLet me know if you need further clarification! 😊",
+        "retrieved": true
+      }
+    },
+    "state": null
+  }
+}

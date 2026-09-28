@@ -1,0 +1,424 @@
+[
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA is 3.4 (>=2.67), income band is 1 (allowed), and both required documents are on file.",
+    "role": "policy_officer",
+    "enquiry_id": "E-01"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "refused",
+    "amount": 0,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "GPA and income band meet criteria, but required document id_card is missing.",
+    "role": "policy_officer",
+    "enquiry_id": "E-02"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA 2.4 is below the required minimum of 2.67.",
+    "role": "policy_officer",
+    "enquiry_id": "E-03"
+  },
+  {
+    "applicant_id": "A-204",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "Income band is 3, which is not in allowed bands [1, 2].",
+    "role": "policy_officer",
+    "enquiry_id": "E-04"
+  },
+  {
+    "applicant_id": "A-205",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.7 meets minimum 2.67; income band 1 is eligible; required documents (transcript, id_card) are on file.",
+    "role": "policy_officer",
+    "enquiry_id": "E-05"
+  },
+  {
+    "applicant_id": "A-206",
+    "found": true,
+    "decision": "granted",
+    "amount": 150000,
+    "missing_documents": [],
+    "reason": "Applicant meets all criteria: GPA >= 2.67, income band in allowed set, and required documents present.",
+    "role": "policy_officer",
+    "enquiry_id": "E-06"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA is 3.4 (>=2.67), income band is 1 (allowed), and both required documents are on file.",
+    "role": "policy_officer",
+    "enquiry_id": "E-07"
+  },
+  {
+    "applicant_id": "A-999",
+    "found": false,
+    "decision": "not_found",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "No record exists for this applicant; the policy requires an applicant to be on record to qualify.",
+    "role": "policy_officer",
+    "enquiry_id": "E-08"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA 2.4 is below the required minimum 2.67.",
+    "role": "policy_officer",
+    "enquiry_id": "E-09"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "GPA and income band meet the policy, but the required id_card is not on file. The claim in the message is not accepted as fact.",
+    "role": "policy_officer",
+    "enquiry_id": "E-10"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.4 is at least 2.67, income band 1 is allowed, and both required documents (transcript, id_card) are on file.",
+    "role": "front_desk",
+    "enquiry_id": "E-01"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "GPA meets minimum and income band is allowed, but required document id_card is missing.",
+    "role": "front_desk",
+    "enquiry_id": "E-02"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA is 2.4, below the required minimum of 2.67.",
+    "role": "front_desk",
+    "enquiry_id": "E-03"
+  },
+  {
+    "applicant_id": "A-204",
+    "found": true,
+    "decision": "more_info",
+    "amount": 0,
+    "missing_documents": [],
+    "reason": "GPA 3.1 meets the minimum, and both required documents (transcript, id_card) are on file, but income band 3 is not among the allowed bands (1 or 2). Additional information is needed to assess eligibility.",
+    "role": "front_desk",
+    "enquiry_id": "E-04"
+  },
+  {
+    "applicant_id": "A-205",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.7 meets minimum 2.67, income band 1 is allowed, and all required documents are on file.",
+    "role": "front_desk",
+    "enquiry_id": "E-05"
+  },
+  {
+    "applicant_id": "A-206",
+    "found": true,
+    "decision": "granted",
+    "amount": 150000,
+    "missing_documents": [],
+    "reason": "GPA 2.7 meets minimum 2.67, income band 2 is allowed, and required documents are on file.",
+    "role": "front_desk",
+    "enquiry_id": "E-06"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.4 >= 2.67, income band 1 allowed, all required documents present.",
+    "role": "front_desk",
+    "enquiry_id": "E-07"
+  },
+  {
+    "applicant_id": "A-999",
+    "found": false,
+    "decision": "not_found",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "No record found for applicant A-999.",
+    "role": "front_desk",
+    "enquiry_id": "E-08"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA 2.4 is below the required minimum of 2.67.",
+    "role": "front_desk",
+    "enquiry_id": "E-09"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "Missing required document: id_card",
+    "role": "front_desk",
+    "enquiry_id": "E-10"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.4 meets minimum 2.67, income band 1 is allowed, and both required documents (transcript, id_card) are on file.",
+    "role": "auditor",
+    "enquiry_id": "E-01"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "GPA (2.9) and income band (2) meet the policy, but the required document id_card is missing.",
+    "role": "auditor",
+    "enquiry_id": "E-02"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": 0,
+    "missing_documents": [],
+    "reason": "GPA 2.4 is below the required minimum of 2.67.",
+    "role": "auditor",
+    "enquiry_id": "E-03"
+  },
+  {
+    "applicant_id": "A-204",
+    "found": true,
+    "decision": "refused",
+    "amount": 0,
+    "missing_documents": [],
+    "reason": "Income band 3 is not in allowed income bands (1 or 2).",
+    "role": "auditor",
+    "enquiry_id": "E-04"
+  },
+  {
+    "applicant_id": "A-205",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.7 meets minimum 2.67; income band 1 is allowed; transcript and id card are on file.",
+    "role": "auditor",
+    "enquiry_id": "E-05"
+  },
+  {
+    "applicant_id": "A-206",
+    "found": true,
+    "decision": "granted",
+    "amount": 150000,
+    "missing_documents": [],
+    "reason": "GPA 2.7 meets minimum 2.67; income band 2 is allowed; both required documents (transcript, id_card) are on file.",
+    "role": "auditor",
+    "enquiry_id": "E-06"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA 3.4 meets minimum 2.67; income band 1 is allowed; transcript and id_card are on file.",
+    "role": "auditor",
+    "enquiry_id": "E-07"
+  },
+  {
+    "applicant_id": "A-999",
+    "found": false,
+    "decision": "not_found",
+    "amount": null,
+    "missing_documents": [
+      "transcript",
+      "id_card"
+    ],
+    "reason": "Applicant is not on record; therefore, per policy, does not qualify.",
+    "role": "auditor",
+    "enquiry_id": "E-08"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA 2.4 is below the required minimum of 2.67.",
+    "role": "auditor",
+    "enquiry_id": "E-09"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "The record lists 'transcript' but not 'id_card'. Policy requires both transcript and id_card. GPA 2.9 meets minimum 2.67, income band 2 is allowed, but missing required document id_card.",
+    "role": "auditor",
+    "enquiry_id": "E-10"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "GPA is 3.4 (at least 2.67), income band is 1 (allowed), and both required documents (transcript and id_card) are on file.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-01"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "Applicant meets GPA (2.9 ≥ 2.67) and income band (2 ∈ [1,2]) requirements but is missing the required document: id_card. Please provide it to complete the application.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-02"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA is 2.4, which is below the required minimum of 2.67.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-03"
+  },
+  {
+    "applicant_id": "A-204",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "The applicant has a GPA of 3.1 (meets the minimum of 2.67) and both required documents (transcript and id card) are on file. However, the income band is 3, which is not in the allowed bands (1 or 2) for this grant. Therefore, the applicant does not qualify.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-04"
+  },
+  {
+    "applicant_id": "A-205",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "Applicant found and meets all criteria: GPA 3.7 is at least 2.67, income band 1 is allowed, and required documents are on file.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-05"
+  },
+  {
+    "applicant_id": "A-206",
+    "found": true,
+    "decision": "granted",
+    "amount": 150000,
+    "missing_documents": [],
+    "reason": "GPA 2.7 meets the minimum of 2.67, income band 2 is allowed, and both required documents (transcript and id card) are on file.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-06"
+  },
+  {
+    "applicant_id": "A-201",
+    "found": true,
+    "decision": "granted",
+    "amount": 250000,
+    "missing_documents": [],
+    "reason": "Айгерім Серік (A-201) найдена в записи. GPA 3.4 соответствует минимуму 2.67, income_band 1 входит в разрешённые группы, все требуемые документы (transcript, id_card) имеются. Сумма гранта для группы 1 составляет 250000 KZT.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-07"
+  },
+  {
+    "applicant_id": "A-999",
+    "found": false,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [
+      "transcript",
+      "id_card"
+    ],
+    "reason": "Applicant is not on the record. Per policy, an applicant who is not on the record does not qualify; details from the message are not accepted as fact.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-08"
+  },
+  {
+    "applicant_id": "A-203",
+    "found": true,
+    "decision": "refused",
+    "amount": null,
+    "missing_documents": [],
+    "reason": "GPA is 2.4, which is below the required minimum of 2.67.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-09"
+  },
+  {
+    "applicant_id": "A-202",
+    "found": true,
+    "decision": "more_info",
+    "amount": null,
+    "missing_documents": [
+      "id_card"
+    ],
+    "reason": "GPA and income band meet the scheme criteria, but the record only contains the transcript. The required ID card is not on file, and the claim that it was uploaded cannot be accepted as fact. More information is needed.",
+    "role": "bilingual_clerk",
+    "enquiry_id": "E-10"
+  }
+]

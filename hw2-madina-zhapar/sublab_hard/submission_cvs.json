@@ -1,0 +1,150 @@
+[
+  {
+    "candidate_id": "story-01",
+    "full_name": "Aziza Bekova",
+    "degree": "BSc in Computer Science",
+    "graduation_year": 2025,
+    "gpa_4_scale": 3.8,
+    "original_scale": "4.0",
+    "languages": [
+      "Kazakh",
+      "Russian",
+      "English"
+    ],
+    "published_outputs": 2,
+    "submitted_outputs": null,
+    "experience_months": 8,
+    "contradictions": [],
+    "evidence": {
+      "degree": "I completed my BSc in Computer Science in June 2025.",
+      "gpa": "My final GPA was 3.8 on a 4.0 scale.",
+      "publications": "The first is a paper on retrieval quality that appeared in a peer-reviewed workshop proceedings in 2025 — this is published and I can send the DOI. The second is a short paper on evaluation methods that was published in a regional journal in early 2026.",
+      "experience": "Between my second and fourth years I worked part-time for a data team as a junior analyst, from October 2023 to May 2024, eight months in total.",
+      "languages": "I speak Kazakh and Russian fluently and my English is at C1."
+    }
+  },
+  {
+    "candidate_id": "story-02",
+    "full_name": "Dias Yerzhanov",
+    "degree": "Bachelor's in Information Systems",
+    "graduation_year": null,
+    "gpa_4_scale": null,
+    "original_scale": null,
+    "languages": [
+      "Kazakh",
+      "Russian",
+      "English (B2)"
+    ],
+    "published_outputs": 1,
+    "submitted_outputs": null,
+    "experience_months": 36,
+    "contradictions": [],
+    "evidence": {
+      "degree": "I finished my bachelor's in Information Systems last year with a diploma with distinction.",
+      "gpa": "There is no GPA figure anywhere in my transcript that I would want to put in a letter, so I am not going to make one up.",
+      "publications": "I have one published paper, in a student conference proceedings, about the scheduling tool.",
+      "experience": "I have been employed continuously for three years. That is thirty-six months as a backend developer at a logistics company, starting the month after my third year ended and continuing today.",
+      "languages": "Languages: Kazakh, Russian, English (B2)."
+    }
+  },
+  {
+    "candidate_id": "story-03",
+    "full_name": "Lyazzat Omarova",
+    "degree": "BSc in Applied Mathematics",
+    "graduation_year": 2025,
+    "gpa_4_scale": 3.68,
+    "original_scale": "5.0",
+    "languages": [
+      "Kazakh",
+      "Russian",
+      "English"
+    ],
+    "published_outputs": 1,
+    "submitted_outputs": 1,
+    "experience_months": 14,
+    "contradictions": [],
+    "evidence": {
+      "degree": "BSc in Applied Mathematics, completed 2025.",
+      "gpa": "My GPA was 4.6 out of 5.0.",
+      "publications": "One paper published in 2024 in a peer-reviewed conference proceedings (graph theory, a small result, entirely mine). A second paper is under review at a journal since March 2026 — I am listing it for completeness and I understand it does not count as published.",
+      "experience": "The first, nine months, at a risk department building spreadsheet models. The second, five months, at a research institute working on graph tooling. They did not overlap: the first ran from June 2023 to February 2024, the second from March 2024 to July 2024.",
+      "languages": "Kazakh, Russian, English."
+    }
+  },
+  {
+    "candidate_id": "story-04",
+    "full_name": "Tamerlan Saparov",
+    "degree": "BSc in Computer Science",
+    "graduation_year": 2026,
+    "gpa_4_scale": 3.6,
+    "original_scale": "4.0",
+    "languages": [
+      "Kazakh",
+      "Russian",
+      "English",
+      "Turkish (A2)"
+    ],
+    "published_outputs": 1,
+    "submitted_outputs": 1,
+    "experience_months": 24,
+    "contradictions": [],
+    "evidence": {
+      "degree": "BSc in Computer Science, graduating 2026. GPA 3.6 on a 4.0 scale.",
+      "gpa": "GPA 3.6 on a 4.0 scale.",
+      "publications": "So: one published, one under review, two in preparation.",
+      "experience": "Twenty-four months in total at a language-technology startup, from September 2023 to September 2025, full-time in the summers and part-time during term.",
+      "languages": "Kazakh, Russian, English, Turkish (A2)."
+    }
+  },
+  {
+    "candidate_id": "story-05",
+    "full_name": "Аиша Нұрланқызы",
+    "degree": "информатика бакалавриаты",
+    "graduation_year": 2025,
+    "gpa_4_scale": 3.9,
+    "original_scale": "4.0",
+    "languages": [
+      "қазақ",
+      "орыс",
+      "ағылшын (C1)"
+    ],
+    "published_outputs": 1,
+    "submitted_outputs": 0,
+    "experience_months": 6,
+    "contradictions": [],
+    "evidence": {
+      "degree": "2025 жылы информатика бакалавриатын бітірдім.",
+      "gpa": "GPA-м 3.9 (4.0 шкаласы бойынша) — бұл менің транскриптімде жазылған сан.",
+      "publications": "2025 жылы рецензияланатын конференция жинағында бір мақалам жарияланды, деректер жиынтығының сапасы туралы еді. Тағы бір мақала жазылып жатыр, бірақ ол әлі еш жерге жіберілген жоқ.",
+      "experience": "2025 жылдың қыркүйегінен 2026 жылдың ақпанына дейін бір компанияда алты ай тағылымдамадан өттім.",
+      "languages": "Тілдер: қазақ, орыс, ағылшын (C1)."
+    }
+  },
+  {
+    "candidate_id": "story-06",
+    "full_name": "Nurzhan Abilov",
+    "degree": "BSc in Statistics",
+    "graduation_year": null,
+    "gpa_4_scale": null,
+    "original_scale": null,
+    "languages": [
+      "Kazakh",
+      "Russian",
+      "English"
+    ],
+    "published_outputs": 1,
+    "submitted_outputs": null,
+    "experience_months": 40,
+    "contradictions": [
+      "Graduation year stated as 2024 but also stated as 2026 (currently final-year student graduating in 2026).",
+      "GPA stated as 3.2 but also as 3.5."
+    ],
+    "evidence": {
+      "degree": "I graduated in 2024 with a BSc in Statistics.",
+      "gpa": "My GPA was 3.2. Actually I should double-check that, I think it was 3.5 — the 3.2 might be from the transcript I printed in third year.",
+      "publications": "one paper published, in a peer-reviewed proceedings, on survey weighting. One poster at a local event, which I do not think counts.",
+      "experience": "I have been at an insurance analytics team since February 2023, which is about forty months. I was part-time for the first eight of those while I was still studying, then full-time.",
+      "languages": "Kazakh, Russian, English."
+    }
+  }
+]
