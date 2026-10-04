@@ -1,8 +1,11 @@
 # HW2 submission
 
 **Name: Madina Zhapar**
+
 **Student ID: S23069233**
+
 **Group: CSS4007-ENG-8**
+
 **Repository: hw2-madina_zhapar**
 
 ## AI tool disclosure
@@ -53,30 +56,32 @@ out.
 
 Paste the full reply for **one enquiry where a role changed the decision** away
 from the policy officer's:
-
-```{
-```  "applicant_id": "A-202",
-```  "found": true,
-```  "decision": "more_info",
-```  "amount": null,
-```  "missing_documents": ["id_card"],
-```  "reason": "GPA meets minimum and income band is allowed, but required document id_card is missing.",
-```  "role": "front_desk",
-```  "enquiry_id": "E-02"
-```}
+```
+{
+  "applicant_id": "A-202",
+  "found": true,
+  "decision": "more_info",
+  "amount": null,\n
+  "missing_documents": ["id_card"],
+  "reason": "GPA meets minimum and income band is allowed, but required document id_card is missing.",
+  "role": "front_desk",
+  "enquiry_id": "E-02"
+}
+```
 Paste the full reply for **E-07 (the Kazakh enquiry)** from the bilingual
 clerk, so the `reason` language is visible:
-
-```{
-```  "applicant_id": "A-201",
-```  "found": true,
-```  "decision": "granted",
-```  "amount": 250000,
-```  "missing_documents": [],
-```  "reason": "Айгерім Серік (A-201) найдена в записи. GPA 3.4 соответствует минимуму 2.67, income_band 1 входит в разрешённые группы, все требуемые документы (transcript, id_card) имеются. Сумма гранта для группы 1 составляет 250000 KZT.",
-```  "role": "bilingual_clerk",
-```  "enquiry_id": "E-07"
-```}
+```
+{
+  "applicant_id": "A-201",
+  "found": true,
+  "decision": "granted",
+  "amount": 250000,
+  "missing_documents": [],
+  "reason": "Айгерім Серік (A-201) найдена в записи. GPA 3.4 соответствует минимуму 2.67, income_band 1 входит в разрешённые группы, все требуемые документы (transcript, id_card) имеются. Сумма гранта для группы 1 составляет 250000 KZT.",
+  "role": "bilingual_clerk",
+  "enquiry_id": "E-07"
+}
+```
 > The fourth role was supposed to answer in Kazakh here, since the question was in Kazakh, but he answered in Russian.
 
 ### Written answers
@@ -132,75 +137,80 @@ What downstream code can and cannot do:
 | 7 |89 |89 |
 | 8 |107 |107 |
 | 9 |123 |123 |
-| 10 |124 |123 |
-| 11 |135 |134 |
-| 12 |141 |140 |
-| 13 |150 |149 |
-| 14 |158 |157 |
-| 15 |170 |169 |
-| 16 |181 |180 |
-| 17 |189 |188 |
-| **peak** |189 |188 |
-| **total for the run** |1804 |1796 |
+| 10 |124 |121 |
+| 11 |135 |132 |
+| 12 |141 |138 |
+| 13 |150 |147 |
+| 14 |158 |155 |
+| 15 |170 |167 |
+| 16 |181 |178 |
+| 17 |189 |186 |
+| **peak** |189 |186 |
+| **total for the run** |1804 |1780 |
 
 ### Probes after the conversation
 
 | Probe | Tests | A retrieved? | A answer | B retrieved? | B answer |
 |---|---|---|---|---|---|
-| Q-1 identity | turn 1 |true |Applicant A‑202 | |Applicant A‑202 |
-| Q-2 missing document | turn 5 |false | Your **ID card** is still missing from your file. |false | - Bring your ID card to the office on Thursday. |
-| Q-3 band and amount | turns 3–4 |false |Your income is **2**. This will be confirmed after final approval.|false |Since you are in **Income Band 2**, the exact amount can be confirmed by the office.  |
-| Q-4 the constraint | turn 6 |true |Only available on Thursdays. |true |You can visit the office **only on Thursdays** |
-| Q-5 the open question | turn 7 |true |You asked if a scanned letter from your employer counts or if the original is required. |true |A scanned letter from your employer is typically acceptable, but it’s best to confirm with the office if they require the original.  |
+| Q-1 identity | turn 1 |True|"You are Applicant A‑202, Daniyar Qoshan"|True|"You are Daniyar Qoshan, applicant A‑202"|
+| Q-2 missing document | turn 5 |False|"Missing doc: ID card"|False|"Missing doc: ID card"|
+| Q-3 band and amount | turns 3–4 |False|"Income band 2, amount pending"|False|"Income band 2, amount not specified"|
+| Q-4 the constraint | turn 6 |True|"You can come Thursday"|True|"Office visit day: Thursday"|
+| Q-5 the open question | turn 7 |True|"Asked if scanned employer letter counts"|True|"Asked whether scanned employer letter counts"|
 | **retrieved** | |3/5 | |3/5 | |
 
 ### The state my compression produced
 
 ```json
-```{
-```  "applicant_id": "A-202",
-```  "topic": "study grant application",
-```  "facts": [
-```    "transcript sent",
-```    "income band 2"
-```  ],
-```  "decisions": [],
-```  "constraints": [
-```    "can only visit office on Thursday"
-```  ],
-```  "open_questions": [
-```    "does a scanned employer letter count or must it be original?",
-```    "if I bring the id card on Thursday, will the decision be made the same day?"
-```  ],
-```  "language": "Kazakh/English mixed"
-```}
-
+{
+  "applicant_id": "A-202",
+  "topic": "Study Grant Application",
+  "facts": [
+    "Applicant's name is Daniyar Qoshan",
+    "Transcript was sent last week",
+    "Income band is 2 according to family's certificate",
+    "ID card was not uploaded due to broken scanner",
+    "Applicant can only visit the office on Thursdays due to lab schedule",
+    "Sister Aruzhan applied last year and is on file"
+  ],
+  "decisions": [],
+  "constraints": [
+    "ID card needs to be uploaded",
+    "Office visits limited to Thursdays"
+  ],
+  "open_questions": [
+    "Does the applicant qualify for the study grant?",
+    "How much would the grant amount to if approved?",
+    "Does a scanned letter from the employer count or is the original required?",
+    "Will the decision be made the same day if the ID card is brought on Thursday?"
+  ],
+  "language": "Kazakh/English"
+}
+```
 
 ### Written answers
 
 **1. What did compression buy?** Peak tokens both ways, probes retrieved both
 ways, and — if a probe was lost — which one and which turn it came from.
 
->In both modes, only 3 out of 5 were extracted.
-Compression “bought” token savings (the peak is slightly lower, the total amount is smaller), but the price is the loss of details that didn’t make it into the state or weren’t explicitly stated in the responses.
+>Compression resulted in only a slight decrease in the token peak: from 189 (without compression) to 186 (with compression). Regarding fact extraction, the situation is the same: in both modes, Q‑1 (identity), Q‑4 (constraint), and Q‑5 (open question) were successfully extracted, while Q‑2 (missing document, turn 5) and Q‑3 (income band + amount, turns 3–4) were lost. Compression slightly reduced the token load, but it did not improve the quality of responses to probes — the lost items remained the same.
 
 **2. Why must the state be structured rather than a paragraph?** You could have
 asked for "a summary". Say what changes when the summary is an object with
 named fields.
 
->A structured state is needed because a summary paragraph is just text that is easy for humans to read but unsuitable for verification and processing.
->When the summary is formatted as an object with named fields, it can be validated against a schema and we can make sure that the required fields are present; everyone has the same structure; you can automatically extract facts, check probes, and build reports; it’s clear what has been preserved and what has disappeared.
+>A structured state transforms memory from “text for humans” into a machine‑readable repository of facts, where each detail is fixed in its own field and does not get lost in retelling.
 
 **3. What is missing from your state that you would add?** Name what you would
 add and what you would drop to pay for it.
 
->I would expand the state by including family references, timeline, and document status, and to save space, I would remove or combine secondary facts.
+>Add fields that record the status of documents and the timeline of decisions, and remove secondary facts or combine duplicate constraints.
 
 **4. When is compression the wrong choice?** Name a conversation where it would
 lose something that cannot be recovered, and say whether your program would
 notice.
 
->Compression saves tokens, but in conversations where accuracy and completeness are critical, it becomes the wrong choice. For example, a legal contract, a medical consultation, a technical manual, and others. The program will formally “not notice” the loss because the object passes the schema check, even though important details have actually disappeared.
+>Compression saves tokens, but in critical dialogues (legal, medical, technical) it can destroy irrecoverable details, and the program won’t recognize this.
 
 ---
 
@@ -223,11 +233,11 @@ that is not published · a story that contradicts itself.
 Paste the extraction for **story-06**, the one that contradicts itself:
 
 ```json
-```"contradictions": [
-```   "GPA is stated as 3.2 and later as 3.5; the summary 'somewhere in the low threes' also conflicts with 3.5.",
-```   "The story states 'I graduated in 2024' and 'I am currently a final-year student graduating in 2026'."
-``` ],
-
+contradictions": [
+        "Graduation year contradicts: 'I graduated in 2024' vs 'I am currently a final-year student graduating in 2026'",
+        "GPA contradicts: 'My GPA was 3.2' vs 'I think it was 3.5'"
+      ]
+```
 ### Part 2 — scores and the winner
 
 | Candidate | academic (0–5) | research (0–5) | experience (0–5) | weighted total (code) |
@@ -245,24 +255,27 @@ Paste the extraction for **story-06**, the one that contradicts itself:
 **The model's prose answer, asked separately ("who should win?"):**
 
 >Based on the rubric and the candidates' CVs, Candidate story-01 (Aziza Bekova) stands out with strong academic performance, solid research contributions, and relevant experience. Overall, she should be selected as the winner.
-```candidate_id "story-01"
-```academic 5
-```research 5
-```experience 2
-```total 4.4
-
+```
+"winner": {
+    "candidate_id": "story-01",
+    "academic": 5,
+    "research": 5,
+    "experience": 2,
+    "total": 4.4
+  }
+```
 ### Part 3 — written answers
 
 **1. Which rule did you have to add, and what broke without it?** Name the
 story that forced it.
 
->I added a rule: “submitted outputs are not considered published.” Without it, the model counted articles marked as “under review” or “submitted” as published, which messed up the accuracy of research scores. The story that prompted me to add the rule is story‑03 (Lyazzat Omarova), where one work was published, and the other was under review.
+>I had to add a rule about contradictions: if different values are specified for the same field in the history, it remains null, and the contradiction is recorded. Nurzhan Abilov (story‑06) where it’s about GPA and year of graduation.
 
 **2. Where did the model guess, and where did your code have to decide?** One
 example of each, from your run.
 
->The model “guessed” in story‑02 (Dias Yerzhanov): academic=0, because there was no GPA, even though the text mentioned a diploma with honors.
->The code handled it in story‑03 (Lyazzat Omarova): the GPA was 4.6/5.0, and Python converted it to 3.68/4.0. The model didn’t do any recalculation; this was strictly defined in the code.
+>The model made guesses: for example, in the story about Dias Yerzhanov (story‑02), it could have tried to “guess” the GPA or the year of graduation, but the rules prohibited this, and the field remained null.
+>The code decided: the final winner is calculated only by the code using the weight formula (0.5academic + 0.3research + 0.2*experience). For example, Aziza Bekova (story‑01) received 4.4 and became the winner.
 
 **3. Did your prose ranking and your computed ranking agree?** Say which one
 you trust and why — and if they agreed, what you would need to see before
@@ -274,7 +287,7 @@ trusting the prose one alone.
 and then 3.5; the rubric defines a 0 and a 5 and nothing in between for this
 case. Say what you did and what the rule should be.
 
->In story‑06 (Nurzhan Abilov), the GPA was specified as 3.2 and 3.5. The code made the field null and recorded the contradiction. No points were awarded. The rule that should be in the rubric is: “If a field contradicts itself, it is considered null and does not affect the points.” This makes the solution reproducible and transparent.
+>For example, in the run field, Nurzhan Abilov’s GPA became null, and the contradiction is recorded in contradictions, as stated in the rule.
 
 **5. How close were your top two candidates?** If they were within 0.05, say
 what you would tell the committee and what you would change in the extraction
