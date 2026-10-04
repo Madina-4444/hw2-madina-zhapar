@@ -1,5 +1,6 @@
 import os, json
 from openai import OpenAI
+from jsonschema import validate
 
 # === Клиент OpenRouter ===
 def openrouter_client() -> OpenAI:
@@ -28,17 +29,25 @@ def call_model(messages):
 
 # === Сжатие истории ===
 def compress(history):
-    system_prompt = "Summarise the conversation into a JSON object that matches memory_state.schema.json."
+    system_prompt = (
+        "Summarise the conversation into a JSON object that matches memory_state.schema.json. "
+        "Output ONLY the JSON object, no code fences, no explanations. "
+        "Use exactly the required fields: applicant_id, topic, facts, decisions, constraints, open_questions, language. "
+        "Fill missing values with null or []. Do not invent facts."
+    )
     messages = [{"role": "system", "content": system_prompt}] + history
-    reply = call_model(messages)
+    reply = call_model(messages).strip()
+    if reply.startswith("```"):
+        reply = reply.strip("`").replace("json", "", 1).strip()
+
     try:
         state = json.loads(reply)
-        for field in schema["required"]:
-            if field not in state:
-                raise ValueError(f"Missing field {field}")
+        validate(instance=state, schema=schema) 
+        print("✅ Compression successful")
         return state
     except Exception as e:
         print("⚠️ Compression failed:", e)
+        print("Model reply was:", reply)
         return None
 
 # === Запуск скрипта ===
@@ -52,9 +61,14 @@ def run_script(compressed=False):
         if turn == "<compress>" and compressed:
             state = compress(history)
             if state:
-                history = [{"role": "system", "content": json.dumps(state)}]
+        # сохраняем state как JSON-текст в истории
+                history = [
+                    {"role": "system", "content": "Memory state object:"},
+                    {"role": "assistant", "content": json.dumps(state)}
+                ]
             else:
                 print("Keeping full history (summary invalid).")
+
         else:
             history.append({"role": "user", "content": turn})
         tokens_per_call.append(sum(len(m["content"].split()) for m in history))
@@ -72,27 +86,34 @@ def run_script(compressed=False):
     return tokens_per_call, probe_results, state
 
 if __name__ == "__main__":
-    # Запускаем оба прогона
+    # Прогон без компрессии
     tokens_u, probes_u, state_u = run_script(compressed=False)
-    tokens_c, probes_c, state_c = run_script(compressed=True)
-
-    results = {
-        "uncompressed": {
-            "tokens": tokens_u,
-            "peak": max(tokens_u),
-            "probes": probes_u,
-            "state": state_u
-        },
-        "compressed": {
-            "tokens": tokens_c,
-            "peak": max(tokens_c),
-            "probes": probes_c,
-            "state": state_c
-        }
+    results_u = {
+        "tokens": tokens_u,
+        "peak": max(tokens_u),
+        "probes": probes_u,
+        "state": None
     }
+    out_path_u = os.path.join(base, "results_uncompressed.json")
+    with open(out_path_u, "w", encoding="utf-8") as f:
+        json.dump(results_u, f, ensure_ascii=False, indent=2)
+    print(f"Saved uncompressed run to {out_path_u}")
 
-    out_path = os.path.join(base, "results2.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+    # Прогон с компрессией
+    tokens_c, probes_c, state_c = run_script(compressed=True)
+    results_c = {
+        "tokens": tokens_c,
+        "peak": max(tokens_c),
+        "probes": probes_c,
+        "state_file": "state.json" if state_c else None
+    }
+    out_path_c = os.path.join(base, "results_compressed.json")
+    with open(out_path_c, "w", encoding="utf-8") as f:
+        json.dump(results_c, f, ensure_ascii=False, indent=2)
+    print(f"Saved compressed run to {out_path_c}")
 
-    print(f"Saved both runs to {out_path}")
+    if state_c:
+        state_path = os.path.join(base, "state.json")
+        with open(state_path, "w", encoding="utf-8") as f:
+            json.dump(state_c, f, ensure_ascii=False, indent=2)
+        print(f"Saved state object to {state_path}")
