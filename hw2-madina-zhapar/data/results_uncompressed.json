@@ -1,0 +1,45 @@
+{
+  "tokens": [
+    9,
+    22,
+    33,
+    44,
+    57,
+    72,
+    89,
+    107,
+    123,
+    124,
+    135,
+    141,
+    150,
+    158,
+    170,
+    181,
+    189
+  ],
+  "peak": 189,
+  "probes": {
+    "Q-1": {
+      "reply": "Сәлеметсіз бе, Daniyar Qoshan! Let me summarize the information and address your questions:\n\n1. **Study Grant Eligibility**:  \n   - **Income Band 2** qualifies you for a specific grant amount, which will be finalized once your documents are complete.  \n   - The exact amount depends on the program’s policies, but you’ll be notified once your application is fully processed.  \n\n2. **Missing Documents**:  \n   - **ID Card**: You need to upload a scanned copy or bring the original to the office.  \n   - You mentioned the scanner is broken; you can bring it in person on Thursday.  \n   - **Employer Letter**: A scanned copy is acceptable, but ensure it’s clear and legible.  \n\n3. **Application Status**:  \n   - Your applicant number is **A-202**.  \n   - Your sister Aruzhan’s file is on record, but her application doesn’t affect yours.  \n   - The decision won’t be made the same day you bring your ID card, as processing requires time.  \n\n4. **Next Steps**:  \n   - Bring your ID card to the office on Thursday.  \n   - Ensure all other documents (transcript, employer letter) are uploaded or submitted.  \n   - Check your email or portal for updates on your application status.  \n\n5. **Reminder**:  \n   - Your transcript was sent last week, so it should already be in your file.  \n   - Confirm if any other documents are missing when you visit the office.  \n\nLet me know if you have further questions! 😊",
+      "retrieved": true
+    },
+    "Q-2": {
+      "reply": "Here’s a compressed summary of your query and the status:\n\n**Applicant:** Daniyar Qoshan, Applicant A-202  \n**Income Band:** 2 (as per family certificate)  \n**Missing Document:** ID card (scanner issue; can bring on Thursday)  \n**Current Status:** Transcript sent last week; employer letter scanned (check if original required).  \n**Questions:**  \n1. **Study Grant Amount:** Depends on income band 2; confirm with office.  \n2. **Sister’s File:** Aruzhan is on file from last year.  \n3. **Decision Timing:** Bring ID card Thursday; decision may not be same day.  \n4. **Next Steps:** Confirm missing documents (likely ID card); verify grant amount.\n\nPlease bring your ID card on Thursday and clarify if the scanned employer letter is sufficient for processing.",
+      "retrieved": false
+    },
+    "Q-3": {
+      "reply": "Here’s a compressed summary of your query:\n\n- **Name & Applicant Number**: Daniyar Qoshan, A-202.  \n- **Missing Document**: ID card (scanner issue).  \n- **Submission Plan**: Can bring ID card to the office on Thursday.  \n- **Income Band**: 2 (family certificate confirms this).  \n- **Grant Amount**: Awaiting confirmation based on income band.  \n- **Employer Letter**: Scanned copy accepted (original not required).  \n- **Decision Timeline**: Likely not same day; depends on document verification.  \n- **Sister’s Info**: Aruzhan applied last year, already on file.  \n\nWhat’s still missing: **ID card**.  \nCurrent status: Awaiting ID submission for grant processing.  \nGrant amount: To be confirmed based on income band 2.  \n\nLet me know if you need further clarification!",
+      "retrieved": false
+    },
+    "Q-4": {
+      "reply": "Сәлеметсіз бе, Daniyar! Here’s a compressed summary of your queries:  \n1. **Missing Document**: Your ID card (can bring it on Thursday).  \n2. **Amount**: Study grant depends on income band 2; exact amount will be confirmed upon file completion.  \n3. **Applicant Info**: You’re applicant A-202.  \n4. **Income Band**: 2 (exact grant amount pending).  \n5. **Office Visit**: Thursday is your available day.  \n6. **Scanned Letter**: A scanned letter from your employer is acceptable.  \n7. **Decision Timeline**: Decision won’t necessarily be made the same day.  \nHope this helps! Let us know if you have more questions.",
+      "retrieved": true
+    },
+    "Q-5": {
+      "reply": "Here’s a concise summary of your queries:\n\n1. **Applicant Details**: Daniyar Qoshan, Applicant A-202.  \n2. **Missing Document**: ID card (scanner broke).  \n3. **Income Band**: 2 (family certificate confirms this).  \n4. **Study Grant Amount**: Not specified yet.  \n5. **Office Visit**: Only available on Thursdays due to lab schedule.  \n6. **Employer Letter**: Asked if a scanned copy is acceptable or if the original is required.  \n7. **Decision Timeline**: Asked if bringing the ID card on Thursday means the decision will be made the same day.  \n8. **Additional Info**: Sister Aruzhan applied last year and is on file.  \n\n**Questions Still Open**:  \n- What is still missing from your file?  \n- What is the amount for income band 2?  \n- Confirmation on the employer letter format (scanned vs. original).  \n- Whether the decision will be finalized on Thursday when you bring your ID card.  \n\nLet me know if you'd like further clarification!",
+      "retrieved": true
+    }
+  },
+  "state": null
+}

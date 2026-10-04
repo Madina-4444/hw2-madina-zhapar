@@ -1,0 +1,45 @@
+{
+  "tokens": [
+    9,
+    22,
+    33,
+    44,
+    57,
+    72,
+    89,
+    107,
+    123,
+    121,
+    132,
+    138,
+    147,
+    155,
+    167,
+    178,
+    186
+  ],
+  "peak": 186,
+  "probes": {
+    "Q-1": {
+      "reply": "You are **Daniyar Qoshan**, and your applicant number is **A-202**. Here's a summary of your file and what is still missing:\n\n### **What’s Still Missing:**\n1. **ID Card:** Your ID card was not uploaded due to a broken scanner. This needs to be uploaded or brought to the office for verification.\n\n---\n\n### **Grant Amount:**\nThe grant amount has not been specified yet. Once your documents are complete and your application is reviewed, the amount will be determined based on your income band (Income Band 2) and other eligibility criteria.\n\n---\n\n### **Next Steps:**\n- Upload or bring your ID card to the office.\n- Remember you can only visit the office on **Thursdays** due to your lab schedule.\n- Once your ID is submitted, the decision will likely be made the same day if everything is in order.\n\nLet me know if you need further assistance! 😊",
+      "retrieved": true
+    },
+    "Q-2": {
+      "reply": "Let me summarize based on your **memory state object**:\n\n1. **Applicant Details**:  \n   - You are **Daniyar Qoshan**, and your applicant number is **A-202**.\n\n2. **Missing Document**:  \n   - Your **ID card** is still missing from your file because the scanner was broken when you tried to upload it.\n\n3. **Grant Amount**:  \n   - The **grant amount** has not been determined yet, as your application is still pending. This depends on whether you qualify for the study grant.\n\nLet me know if you need further assistance! 😊",
+      "retrieved": false
+    },
+    "Q-3": {
+      "reply": "Here’s the information based on your memory state object:  \n\n1. **What is still missing from your file?**  \n   - Your **ID card** is still missing because the scanner was broken when you tried to upload it.  \n\n2. **What was the amount again?**  \n   - The grant amount has not been determined yet, as your application is still pending completion.  \n\n3. **Which applicant are you, and what is your number?**  \n   - You are **Daniyar Qoshan**, and your applicant ID is **A-202**.  \n\n4. **Which document is still missing?**  \n   - The **ID card** is the document still missing from your file.  \n\n5. **What is your income band, and what amount does that come to?**  \n   - Your income band is **2**, according to your family's certificate. However, the specific amount corresponding to this income band is not specified in the memory state object.  \n\nLet me know if you’d like further clarification or assistance!",
+      "retrieved": false
+    },
+    "Q-4": {
+      "reply": "Let me summarize the details for you:\n\n1. **Applicant Information**: You are **Daniyar Qoshan**, and your applicant number is **A-202**.\n\n2. **Missing Document**: The **ID card** is still missing from your file because your scanner was broken.\n\n3. **Income Band**: Your family's income band is **2**, but the specific grant amount for this band has not been mentioned yet.\n\n4. **Office Visit Day**: You can only visit the office on **Thursdays** due to your lab schedule.\n\n5. **Grant Amount**: The exact grant amount has not been specified in the information provided.\n\nLet me know if you'd like help with anything else!",
+      "retrieved": true
+    },
+    "Q-5": {
+      "reply": "Here’s the information from your file:  \n\n1. **What is still missing from my file?**  \n   - The ID card is still missing due to a broken scanner.  \n\n2. **What was the amount again?**  \n   - The grant amount has not been determined yet. It depends on your eligibility, which is still being assessed.  \n\n3. **Which applicant am I, and what is my number?**  \n   - You are Daniyar Qoshan, and your applicant ID is **A-202**.  \n\n4. **Which document is still missing from my file?**  \n   - The ID card has not been uploaded yet.  \n\n5. **What is my income band, and what amount does that come to?**  \n   - Your income band is **2** according to your family's certificate, but the specific amount corresponding to this band is not specified in the file.  \n\n6. **Which day of the week can I come to the office?**  \n   - You can only visit the office on **Thursdays** due to your lab schedule.  \n\n7. **What did I ask you about my employer?**  \n   - You asked whether a **scanned letter from your employer would count or if the original is required**.  \n\nLet me know if you need further clarification!",
+      "retrieved": true
+    }
+  },
+  "state_file": "state.json"
+}

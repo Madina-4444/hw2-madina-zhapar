@@ -1,0 +1,24 @@
+{
+  "applicant_id": "A-202",
+  "topic": "Study Grant Application",
+  "facts": [
+    "Applicant's name is Daniyar Qoshan",
+    "Transcript was sent last week",
+    "Income band is 2 according to family's certificate",
+    "ID card was not uploaded due to broken scanner",
+    "Applicant can only visit the office on Thursdays due to lab schedule",
+    "Sister Aruzhan applied last year and is on file"
+  ],
+  "decisions": [],
+  "constraints": [
+    "ID card needs to be uploaded",
+    "Office visits limited to Thursdays"
+  ],
+  "open_questions": [
+    "Does the applicant qualify for the study grant?",
+    "How much would the grant amount to if approved?",
+    "Does a scanned letter from the employer count or is the original required?",
+    "Will the decision be made the same day if the ID card is brought on Thursday?"
+  ],
+  "language": "Kazakh/English"
+}
